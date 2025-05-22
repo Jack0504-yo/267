@@ -1,0 +1,29 @@
+[
+  {
+    "name" : "Client.inventory.Equip",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleClient",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleClient$CharNameAndId",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  }
+]

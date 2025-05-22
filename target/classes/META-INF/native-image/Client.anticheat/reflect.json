@@ -1,0 +1,2675 @@
+[
+  {
+    "name" : "Client.anticheat.CheatingOffense",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.CheatingOffenseEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.CheatingOffensePersister",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.CheatingOffensePersister$PersistingTask",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.CheatTracker",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.CheatTracker$InvalidationTask",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.anticheat.ReportType",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.Battler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.BuddyList",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.BuddylistEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.CalcDamage",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.CardData",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.CharacterNameAndId",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.ClientRedirector",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.force.ForceInfoEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.force.MapleForceAtom",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.force.MapleForceFactory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.force.MapleForceInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.ForceAtoms",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.ErdaConsumeOption",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.HexaFactory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.HexaSkillCoreEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.HexaStatCoreEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.MapleHexaSkill",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.hexa.MapleHexaStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EnchantScrollEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EnchantScrollFlag",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EnhanceResultType",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.Equip",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EquipAdditions",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EquipBaseStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EquipSpecialStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.EquipStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.FamiliarCard",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.ImpFlag",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.InventoryException",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.Item",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.ItemAttribute",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.ItemLoader",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleAndroid",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleImp",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleInventory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleInventoryIdentifier",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleInventoryType",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleMount",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MaplePet",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MaplePotionPot",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleRing",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleRing$RingComparator",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.MapleWeapon",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.ModifyInventory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.NirvanaFlame",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.PetCommand",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.PetDataFactory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.PetFlag",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.SocketFlag",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.inventory.StarForce",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.LoginCrypto",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.LoginCryptoLegacy",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleAntiMacro",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleAntiMacro$MapleAntiMacroInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCharacter",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCharacter$PlayerObservable",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCharacterCards",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCharacterUtil",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleClient",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleClient$CharNameAndId",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleClientCheck",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCoolDownValueHolder",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleCoolDownValueHolder$CancelCooldownAction",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleDisease",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleEnumClass",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleExpStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleForceType",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleJob",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MaplePartTimeJob",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleProcess",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MaplePvpStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleQuestStatus",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleQuickSlot",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleReward",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleSigninStatus",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleTrait",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleTraitType",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleUnion",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleUnion$Board",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleUnionBoardEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MapleUnionEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MemoEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MessageOption",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MonsterBook",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MonsterEffectHolder",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.MonsterFamiliar",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.PlayerRandomStream",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.PlayerSpecialStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.PortableChair",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.Reborn",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.RockPaperScissors",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.SecondaryStat",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.SecondaryStatValueHolder",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.ExtraSkill",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.ForceSkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.AbstractSkillHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.HexaSKILL",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.SkillClassApplier",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.SkillClassFetcher",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.MANAGER",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全職通用",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全部劍士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全部弓箭手",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全部法師",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全部海盜",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.全部盜賊",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.格蘭蒂斯",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.神之子",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.其他.管理員",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.冒險家",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.初心者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.劍士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.劍士類別.聖騎士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.劍士類別.英雄",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.劍士類別.黑騎士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.弓手類別.神射手",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.弓手類別.箭神",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.弓手類別.開拓者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.弓箭手",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.法師",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.法師類別.主教",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.法師類別.冰雷大魔導士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.法師類別.火毒大魔導士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.海盜",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.海盜類別.拳霸",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.海盜類別.槍神",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.海盜類別.重砲指揮官",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.盜賊",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.盜賊類別.夜使者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.盜賊類別.影武者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.冒險家.盜賊類別.暗影神偷",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.怪物.皮卡啾",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.怪物.雪吉拉",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.曉之陣.劍豪",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.曉之陣.曉之陣",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.曉之陣.陰陽師",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.傑諾",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.市民",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.惡魔",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.惡魔復仇者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.惡魔殺手",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.末日反抗軍",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.機甲戰神",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.煉獄巫師",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.爆拳槍神",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.末日反抗軍.狂豹獵人",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.江湖.墨玄",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.江湖.江湖",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.江湖.琳恩",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.異界.凱內西斯",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.異界.異界",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.暗夜行者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.烈焰巫師",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.皇家騎士團",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.破風使者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.米哈逸",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.聖魂劍士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.貴族",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.皇家騎士團.閃雷悍將",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.夜光",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.幻影俠盜",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.狂狼勇士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.精靈遊俠",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.英雄團",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.隱月",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.英雄團.龍魔導士",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.超新星.凱撒",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.超新星.凱殷",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.超新星.卡蒂娜",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.超新星.天使破壞者",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.超新星.超新星",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.阿尼瑪族.菈菈",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.阿尼瑪族.虎影",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.阿尼瑪族.阿尼瑪族",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.雷普族.亞克",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.雷普族.伊利恩",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.雷普族.卡莉",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.雷普族.阿戴爾",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.handler.雷普族.雷普族",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.InnerAbillity",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.InnerSkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.KSPsychicSkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.Skill",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillEffectDefaultValues",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillFactory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillFactory$CraftingEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillFactory$FamiliarEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillMacro",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SkillMesInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SpecialBuffInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.skills.SummonSkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.SpecialChair",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.SpecialChairTW",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.BuffEffectRecalcableStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.DeadDebuff",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.EquipRecalcableStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.MapleHyperStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.PassiveSkillRecalcableStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.PlayerStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.stat.RecalcableStats",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.status.MonsterStatus",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.status.MonsterStatusEffect",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.VCoreSkillEntry",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.VMatrixOption",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Client.VMatrixSlot",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.PlayerScriptInteraction",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptBase",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptEvent",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptField",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptGuild",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptHelper",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptItem",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptMob",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptNpc",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptParty",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptPlayer",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptPortal",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptReactor",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.binding.ScriptServer",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.EventManager",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.EventManipulator",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.FieldTransferInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.JavaToTypeScriptConverter",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.JavaToTypeScriptConverter$ClassInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.JavaToTypeScriptConverter$MethodInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.JavaToTypeScriptConverter$ParameterInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.NpcScriptInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ReactorManager",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ScriptInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ScriptManager",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ScriptMemory",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ServerManager",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Plugin.script.ServerManipulator",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.ChannelServer",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.DojoRankingsDataHelper",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.DojoRankingsDataHelper$RankingsData",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.AdeleHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.AllianceHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.AttackInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.AttackMobInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.BBSHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.BossSerenHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.BuddyListHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.BuddyListHandler$CharacterIdNameBuddyCapacity",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.ChatHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.DamageParse",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.DueyHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.EgoEquipHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.EnchantHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.GuildHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.HexaHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.HiredFisherHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.HiredFisherStorage",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.HiredMerchantHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.InterServerHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.InventoryHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.ItemMakerHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.ItemScrollHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.LucidHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.MobHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.MobSkillDelayEndHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.MovementParse",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.NPCHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PetHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PhantomMemorySkill",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PlayerHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PlayerInteractionHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PlayersHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.PotionPotHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.StatsHandling",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.SummonHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.SystemProcess",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.TakeDamageHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.TakeDamageHandler$UserHitInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.UseCashItemHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.UseHammerHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.UserInterfaceHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.handler.UserSkillUseHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MapleDojoRanking",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MapleDojoRanking$DojoRankingInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MapleGuildRanking",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MapleGuildRanking$GuildRankingInfo",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MerchantStorage",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.MonsterCollectionHandler",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.PlayerStorage",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.PlayerStorage$PersistingTask",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  },
+  {
+    "name" : "Server.channel.PlayerStorage$ConnectChecker",
+    "allDeclaredConstructors" : false,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : false,
+    "allPublicMethods" : true,
+    "allPublicFields" : true,
+    "allDeclaredFields" : false
+  }
+]
