@@ -34,10 +34,10 @@ public class World {
     public static void init() {
         WorldFindService.getInstance();
         WorldBroadcastService.getInstance();
-        WorldAllianceService.getInstance();
-        WorldBuddyService.getInstance();
-        WorldGuildService.getInstance();
-        WorldMessengerService.getInstance();
+        // WorldAllianceService.getInstance();
+        // WorldBuddyService.getInstance();
+        // WorldGuildService.getInstance();
+        // WorldMessengerService.getInstance();
     }
 
     public static String getStatus() {

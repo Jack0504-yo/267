@@ -174,12 +174,12 @@ public final class PacketProcessor {
                 keyUI(c);
                 break;
             case CP_CashShopQueryCashRequest:
-                // 2430
-                c.announce(MTSCSPacket.CashShopQueryCashResult(c.getPlayer()));
-                c.announce(keyUI(c));
+                // // 2430
+                // c.announce(MTSCSPacket.CashShopQueryCashResult(c.getPlayer()));
+                // c.announce(keyUI(c));
                 break;
             case CP_CashShopChargeParamRequest:
-                CashShopOperation.openRechargeWeb(c);
+                // CashShopOperation.openRechargeWeb(c);
                 break;
             case CP_UserTransferFieldRequest:
                 switch (type) {
@@ -193,34 +193,34 @@ public final class PacketProcessor {
                 }
                 break;
             case CP_CashShopCashItemRequest:
-                BuyCashItemHandler.CashShopCashItemRequest(slea, c, c.getPlayer());
+                // BuyCashItemHandler.CashShopCashItemRequest(slea, c, c.getPlayer());
                 break;
             case CP_CashShopGiftMateInfoRequest:
-                BuyCashItemHandler.商城送禮(slea, c, c.getPlayer());
+                // BuyCashItemHandler.商城送禮(slea, c, c.getPlayer());
                 break;
             case CP_CashShopCheckMileageRequest:
-                CashShopOperation.CheckMileageRequest(c);
+                // CashShopOperation.CheckMileageRequest(c);
                 break;
             case CP_CashShopCheckCouponRequest:
-                CouponCodeHandler.handlePacket(slea, c, c.getPlayer());
+                // CouponCodeHandler.handlePacket(slea, c, c.getPlayer());
                 break;
             case CP_MVP_SpecialPack_Request:
-                BuyCashItemHandler.ReceiveMvpLevelPacket(slea, c.getPlayer());
+                // BuyCashItemHandler.ReceiveMvpLevelPacket(slea, c.getPlayer());
                 break;
             case MVP_RoyalPack_Request:
-                BuyCashItemHandler.ReceiveMvpLevelPacket(slea, c.getPlayer());
+                // BuyCashItemHandler.ReceiveMvpLevelPacket(slea, c.getPlayer());
                 break;
             case MVP_GradePack_Request:
-                BuyCashItemHandler.ReceiveMvpGradePacket(c.getPlayer());
+                // BuyCashItemHandler.ReceiveMvpGradePacket(c.getPlayer());
                 break;
             case OPEN_AVATAR_RANDOM_BOX:
-                BuyCashItemHandler.openAvatarRandomBox(slea, c, c.getPlayer());
+                // BuyCashItemHandler.openAvatarRandomBox(slea, c, c.getPlayer());
                 break;
             case CP_AuctionRequest:
-                AuctionHandler.AuctionRequest(slea, c, c.getPlayer());
+                // AuctionHandler.AuctionRequest(slea, c, c.getPlayer());
                 break;
             case CP_AuctionExit:
-                AuctionHandler.AuctionExit(slea, c, c.getPlayer());
+                // AuctionHandler.AuctionExit(slea, c, c.getPlayer());
                 break;
             case CHECK_THIS_WEEK_EVENT:
                 c.announce(MaplePacketCreator.SystemProcess());
@@ -247,7 +247,7 @@ public final class PacketProcessor {
                 InterServerHandler.enterCS(c, c.getPlayer());
                 break;
             case CP_UserMigrateToAuctionRequest:
-                AuctionHandler.EnterAuctionRequest(c, c.getPlayer());
+                // AuctionHandler.EnterAuctionRequest(c, c.getPlayer());
                 break;
             case CP_UserReturnEffectResponse:
                 ItemScrollHandler.ReturnEffectConfirm(slea, c, c.getPlayer());
@@ -712,7 +712,7 @@ public final class PacketProcessor {
                 ChatHandler.Whisper_Find(slea, c, true);
                 break;
             case CP_Messenger:
-                ChatHandler.Messenger(slea, c);
+                // ChatHandler.Messenger(slea, c);
                 break;
             case CP_LikePoint:
                 ChatHandler.ShowLoveRank(slea, c);
@@ -769,25 +769,25 @@ public final class PacketProcessor {
                 PlayerInteractionHandler.PlayerInteraction(slea, c, c.getPlayer());
                 break;
             case CP_GuildRequest:
-                GuildHandler.Guild(slea, c);
+                // GuildHandler.Guild(slea, c);
                 break;
             case CP_GuildResult:
-                int ResultType = slea.readInt();
-                short LeaderNameSize = slea.readShort();
-                String name = slea.readMapleAsciiString();
-                GuildHandler.DenyGuildRequest(name, c);
+                // int ResultType = slea.readInt();
+                // short LeaderNameSize = slea.readShort();
+                // String name = slea.readMapleAsciiString();
+                // GuildHandler.DenyGuildRequest(name, c);
                 break;
             case UNION_WAR_EXIT:
                 c.getPlayer().warpdelay(921172200, 1);
                 break;
             case CP_GuildJoinRequest:
-                GuildHandler.GuildApply(slea, c);
+                // GuildHandler.GuildApply(slea, c);
                 break;
             case CP_GuildJoinAccept:
-                GuildHandler.AcceptGuildApply(slea, c);
+                // GuildHandler.AcceptGuildApply(slea, c);
                 break;
             case CP_GuildJoinReject:
-                GuildHandler.DenyGuildApply(slea, c);
+                // GuildHandler.DenyGuildApply(slea, c);
                 break;
             case CP_MakeEnterFieldPacketForQuickMove:
                 NPCHandler.OpenQuickMoveNpc(slea, c, c.getPlayer());
@@ -911,7 +911,7 @@ public final class PacketProcessor {
                 PetHandler.PetFood(slea, c, c.getPlayer());
                 break;
             case CP_UserCashPetPickUpOnOffRequest:
-                PetHandler.AllowPetLoot(slea, c, c.getPlayer());
+                // PetHandler.AllowPetLoot(slea, c, c.getPlayer());
                 break;
             case CTX_OPEN_CORE:
                 slea.skip(4);
@@ -922,16 +922,16 @@ public final class PacketProcessor {
                 c.getPlayer().removeItem(2436078, use);
                 break;
             case CP_UserCashPetSkillSettingRequest:
-                PetHandler.AllowPetAutoEat(slea, c, c.getPlayer());
+                // PetHandler.AllowPetAutoEat(slea, c, c.getPlayer());
                 break;
             case CP_UserParcelRequest:
                 DueyHandler.DueyOperation(slea, c);
                 break;
             case CP_UserEntrustedShopRequest:
-                HiredMerchantHandler.UseHiredMerchant(c, true);
+                // HiredMerchantHandler.UseHiredMerchant(c, true);
                 break;
             case CP_UserStoreBankRequest:
-                HiredMerchantHandler.MerchantItemStore(slea, c);
+                // HiredMerchantHandler.MerchantItemStore(slea, c);
                 break;
             case CP_UserRepairDurability:
                 NPCHandler.repair(slea, c);
@@ -973,7 +973,7 @@ public final class PacketProcessor {
                 PlayersHandler.Report(slea, c);
                 break;
             case CP_UserRemoteShopOpenRequest:
-                HiredMerchantHandler.RemoteStore(slea, c);
+                // HiredMerchantHandler.RemoteStore(slea, c);
                 break;
             case USE_CONTENT_MAP_MINI:
                 PlayerHandler.UseContentMap(slea, c, c.getPlayer());

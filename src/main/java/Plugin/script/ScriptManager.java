@@ -277,6 +277,18 @@ public class ScriptManager {
         return startScript(parentID, 0, scriptName, ScriptType.Command, line);
     }
     private String startScript(int parentID, int objID, String scriptName, ScriptType scriptType, Object obj) {
+        // ---- START MODIFICATION TO DISABLE SCRIPT TYPES ----
+        if (scriptType == ScriptType.BossUI || // Assuming BossUI is the main/only boss script type
+            (scriptType.toString().equals("Event")) || // Attempting to match if ScriptType.Event exists
+            scriptType == ScriptType.QuestStart || 
+            scriptType == ScriptType.QuestEnd ||
+            scriptType == ScriptType.Item ||
+            scriptType == ScriptType.Reactor) {
+            // Optionally log that script loading is skipped for this type
+            // log.debug("Skipping load for disabled script type: " + scriptType + " for script: " + scriptName);
+            return ""; // Prevent script from running
+        }
+        // ---- END MODIFICATION ----
         if (scriptName == null || scriptName.isEmpty()) {
             return "";
         }
